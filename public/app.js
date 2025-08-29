@@ -1,13 +1,13 @@
 // Paste your Firebase configuration object here.
- const firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyDBhY2Xc4ZIW8HIeDOfJLY1JhKWq_qoUz4",
     authDomain: "love-paws-4d65a.firebaseapp.com",
     projectId: "love-paws-4d65a",
     storageBucket: "love-paws-4d65a.firebasestorage.app",
     messagingSenderId: "1051316934921",
-    appId: "1:1051316934921:web:f66e64498088c134029bd8",
-    measurementId: "G-YWYZRJXJKK"
-  };
+    appId: "1:1051316934921:web:37a13500ac55617a029bd8",
+    measurementId: "G-2H8T48RRZ3"
+};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
