@@ -1,7 +1,7 @@
 // Paste your Firebase configuration object here.
 const firebaseConfig = {
     apiKey: "AIzaSyDBhY2Xc4ZIW8HIeDOfJLY1JhKWq_qoUz4",
-    authDomain: "love-paws-4d65a.firebaseapp.com",
+    authDomain: "irving-luna.github.io",
     projectId: "love-paws-4d65a",
     storageBucket: "love-paws-4d65a.firebasestorage.app",
     messagingSenderId: "1051316934921",
