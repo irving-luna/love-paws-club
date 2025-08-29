@@ -135,6 +135,7 @@ function displayClientInfo(clientData) {
     clientNameDisplay.textContent = `Cliente: ${clientData.name}`;
     clientInfoDiv.classList.remove('hidden');
     petSection.classList.remove('hidden');
+    petSection.scrollIntoView({ behavior: 'smooth' });
 }
 
 // --- PET LOGIC ---
@@ -222,6 +223,7 @@ addServiceForm.addEventListener('submit', async (e) => {
 });
 
 async function displayServices(petId) {
+    serviceSection.scrollIntoView({ behavior: 'smooth' });
     servicesListUl.innerHTML = '';
     const servicesRef = db.collection('services');
     const q = servicesRef.where('petId', '==', petId).orderBy('date', 'desc');
